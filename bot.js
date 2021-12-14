@@ -31,8 +31,8 @@ client.on('voiceStateUpdate', (oldMember, newMember) => {
   } else if(newUserChannel === undefined){
 
     // User leaves a voice channel
-      if(oldMember.id === '514856260353392660'){
-          return console.log("BOT");
+      if(oldMember.id === '824261211364393050'){
+          return console.log("OTEyMDQ1MzE4NjM4NTM4Nzgy.YZqOZA.te1Jl3QezZvYXqHpyPLMw70Ss8k");
       }
       else{
           if(client.guilds.get(oldMember.guild.id).voiceConnection != null){
